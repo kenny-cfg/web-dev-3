@@ -1,6 +1,6 @@
-const button = document.getElementsByClassName("button");
+const buttonCollection = document.getElementsByClassName("button");
 
-Array.from(button).forEach(element => {
+Array.from(buttonCollection).forEach(element => {
   element.addEventListener('click', () => {
     console.log('CLICKED')
   })
